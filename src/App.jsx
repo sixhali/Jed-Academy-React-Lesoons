@@ -8,9 +8,9 @@ import Users from './Components/Users'
 function App() {
   return (
     <div>
-        <Header/>
-        <Users/>
-        <Footer/>
+      <Header/>
+      <Users/>
+      <Footer/>
     </div>
   )
 }
