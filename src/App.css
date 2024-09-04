@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+.Header,
+.Footer{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.users{
+    padding: 30px 0px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 24px;
+}
