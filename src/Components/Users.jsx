@@ -1,13 +1,14 @@
 import React from 'react'
-import { users } from '../Db/db'
+import { userss } from '../Db/db'
+
 
 function Users() {
   return (
     <div>
     {
-      users.map(({id, name , lastname})=>{
+      userss.map(({id, name , lastname})=>{
         return (
-          <div key={id} className='users'>
+          <div  key={id} className='users'>
             <p>{name} {lastname}</p>
           </div>
         )

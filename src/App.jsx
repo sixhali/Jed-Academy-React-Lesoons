@@ -2,14 +2,14 @@ import React from 'react'
 import Header from './Components/header'
 import Footer from './Components/Footer'
 import './App.css'
-import Users from './Components/Users'
+import GetUsers from './Components/GetUsers'
 
 
 function App() {
   return (
     <div>
       <Header/>
-      <Users/>
+      <GetUsers/>
       <Footer/>
     </div>
   )
